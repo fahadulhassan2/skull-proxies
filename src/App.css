@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'ClearSans-Light';
+    
+}
+mainclass {
+    text-align: center;
+    background-color: #2B2c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:  100vh;
+}
+
+input,
+textarea {
+  box-shadow: none !important;
+  background-color: black !important;
+}
+input:active,
+input:focus,
+input:hover,
+textarea:active,
+textarea:focus,
+textarea:hover {
+  border: 2px solid #ffffffff !important;
+}
+.contact{
+    border-color: #00FFFF !important;
+}
+
+.contact1{
+    color: #00FFFF !important;
+}
+/* textarea{
+    height: 100% !important;
+} */
+
+@font-face {
+  font-family: "ClearSans-Regular";
+  src: local("ClearSans-Regular"),
+   url("./fonts/ClearSans-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "ClearSans-Light";
+    src: local("ClearSans-Light"),
+     url("./fonts/ClearSans-Light.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+    @font-face {
+      font-family: "ClearSans-Thin";
+      src: local("ClearSans-Thin"),
+       url("./fonts/ClearSans-Thin.ttf") format("truetype");
+      font-weight: bold;
+      }
+
+      @font-face {
+        font-family: "ClearSans-Bold";
+        src: local("ClearSans-Bold"),
+         url("./fonts/ClearSans-Medium.ttf") format("truetype");
+       
+        }
+
+  .clearsans {
+    font-family: "ClearSans-Regular";
+   }
+   .clearsanslight {
+    font-family: "ClearSans-Light";
+   }
+   .clearsansthin {
+    font-family: "ClearSans-Thin";
+   }
+   .clearsansbold {
+    font-family: "ClearSans-Bold";
+   }
+   ::-webkit-scrollbar {
+    width: 8px;
+    
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background-color: #0E0E0E !important;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #C20A0B;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

@@ -1,0 +1,29 @@
+.upload-btn-wrapper {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.buttON {
+  border: 2px solid white;
+  color: white;
+  background: rgb(94, 114, 228);
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.buttON:hover {
+  border: 2px solid #5e72e4 important!;
+  color: #5e72e4 important!;
+  background: #ffffff important!;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.upload-buttON-wrapper input[type="file"] {
+  border: 2px solid white;
+  color: white;
+  background-color: rgb(94, 114, 228);
+  opacity: 0;
+}

@@ -1,0 +1,42 @@
+
+    .accordion-item {
+        background-color: #343a4000;
+        border: 2px solid #343a4000 !important;
+    }
+
+    button {
+        box-shadow: none !important;
+        background-color: #343a4000 !important;
+        border: 1px solid #ffffff !important;
+    }
+
+    /* .accordion-button::after {
+        position: relative;
+        bottom: 2vh;
+        content: "";
+        font-size: 40px;
+        background-image: none;
+        font-weight: 100;
+        color: #ffffff;
+        transform: translateY(-4px);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+
+        background-image: none;
+        content: "-";
+        font-size: 48px;
+        transform: translate(-5px, -4px);
+        transform: rotate(4deg);
+    }  */
+    .accordion-button {
+        background-color: #0E0E0E !important;
+    }
+    .accordion-button:hover {
+        background-color: #af0f17 !important;
+    }
+    .accordion-collapse {
+        background-color: #af0f17 !important;
+        border: 2px solid #ffffffff !important;
+        padding: 0 1rem  1rem 1rem !important;
+    }

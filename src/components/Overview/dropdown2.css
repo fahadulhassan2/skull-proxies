@@ -1,0 +1,42 @@
+
+
+.custom-menu {
+    background-color: black;
+    color: white !important;
+}
+.custom2-menu {
+    position: absolute;
+    z-index: 1000;
+    min-width: 275px;
+    padding: 0.5rem 0;
+    margin: 0;
+    width: 100%;
+    color: #ffffff !important;
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid white;
+    
+
+}
+.customprice-menu {
+    position: absolute;
+    z-index: 1000;
+    min-width: 200px;
+    padding: 0.5rem 0;
+    margin: 0;
+    width: 100%;
+    color: #ffffff !important;
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid white;
+    
+
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: #f70000;
+}

@@ -1,0 +1,65 @@
+button {
+  box-shadow: none !important;
+  background-color: #343a4000 !important;
+  border: 1px solid #ffffff !important;
+}
+
+.accordion-button::after {
+  position: relative;
+  bottom: 1rem;
+  content: url("../../images/expand.png");
+  background-image: none;
+  font-weight: 100;
+  color: #ffffff;
+  transform: translateY(1rem);
+}
+
+.accordion-button:not(.collapsed)::after {
+  position: relative;
+  bottom: 0vh;
+  background-image: none;
+  content: url("../../images/collapse_all.png");
+  
+  transform: translateY(1rem);
+  transform: rotate(0deg);
+}
+
+.accordion-button:hover {
+  background-color: #af0f17 !important;
+}
+
+.box {
+  border-top: 1px solid #af0f17;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #af0f17;
+}
+
+.box1 {
+  border-right: 1px solid #ffffff;
+}
+
+.dropdown-menu {
+  background-color: rgb(3, 3, 3) !important;
+  color: #ffffff !important;
+}
+
+.licolor {
+  background-color: #0000 !important;
+  color: #ffffff !important;
+}
+
+.licolor:hover {
+  background-color: #af0f17 !important;
+  color: #ffffff !important;
+}
+
+.form-check-input {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:active,
+.form-check-input:checked {
+  background-color: #af0f17 !important;
+}
